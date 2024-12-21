@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>113306065_Lab5</title>
+    <link rel="stylesheet" href="lab5.css">
+</head>
+<body>
+    <h1>113306065_Lab5</h1>
+    <label for="math">Math: </label>
+    <input type="number" id="math" placeholder="Math" required>
+    <label for="english">English: </label>
+    <input type="number" id="english" placeholder="English" required>
+    <button onclick="addGrade()">Submit</button>
+    <table id="gradeTable">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Math</th>
+                <th>English</th>
+                <th>Average</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Average</th>
+                <th id="mathAvg">0.00</th>
+                <th id="englishAvg">0.00</th>
+                <th id="overallAvg">0.00</th>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="lab5script.js"></script>
+</body>
+</html>
